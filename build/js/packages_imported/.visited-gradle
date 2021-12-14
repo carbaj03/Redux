@@ -1,0 +1,39 @@
+{
+  "version": "9",
+  "items": {
+    "5b337cc3610dde3ec3719bda35d999e0": {
+      "src": "/Users/acarbajo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.31/43331609c7de811fed085e0dfd150874b157c32/kotlin-stdlib-common-1.5.31.jar"
+    },
+    "55895a4ea0757fc35bd6af5ffc6a6a07": {
+      "src": "/Users/acarbajo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-js/1.5.2/eab52726c8939a44c1bd07102c6a76d96f45c133/kotlinx-coroutines-core-jslegacy-1.5.2.jar",
+      "target": "kotlinx-coroutines-core/1.5.2"
+    },
+    "54cb1c8968d790d6ad214508e4a9c7a4": {
+      "src": "/Users/acarbajo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-js/0.16.3/a3f7c2430d973471390a5c3cba22b6541dda4387/atomicfu-jslegacy-0.16.3.jar",
+      "target": "kotlinx-atomicfu/0.16.3"
+    },
+    "7e46137bd84cd3d52afd0081f138b4c5": {
+      "src": "/Users/acarbajo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.5.31/e735bb7789c907d1fec0d2dfbb11b046198822c7/kotlin-stdlib-js-1.5.31.jar",
+      "target": "kotlin/1.5.31"
+    },
+    "337ff817e087aded273dfc9ba494baf4": {
+      "src": "/Users/acarbajo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-js-runner/1.5.31/20ef83e15f8c2cde090f3bfd8c1eba72947f7ab8/kotlin-test-js-runner-1.5.31.jar",
+      "target": "kotlin-test-js-runner/1.5.31"
+    },
+    "d48c49450e9eb3b3c0cc6040ca564f91": {
+      "src": "/Users/acarbajo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-js/1.5.31/2c5105ba30e3396c0a5d112ad75a7076f5409a62/kotlin-test-js-1.5.31.jar",
+      "target": "kotlin-test/1.5.31"
+    },
+    "ef82d92c2fddbe70a07067aaece76ec0": {
+      "src": "/Users/acarbajo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.0/7857e365f925cfa060f941c1357cda1f8790502c/kotlin-stdlib-common-1.6.0.jar"
+    },
+    "6055577c5f8f5352ef1f945f8a1a1bdf": {
+      "src": "/Users/acarbajo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.6.0/184ef9652504f00e2cdfb5a393ab3a9d343d401b/kotlin-stdlib-js-1.6.0.jar",
+      "target": "kotlin/1.6.0"
+    },
+    "57ad78b822848b756b7e07ff942102f0": {
+      "src": "/Users/acarbajo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-js/1.6.0/7a910fee684dfdb78f1ddf475374567558494921/kotlin-test-js-1.6.0.jar",
+      "target": "kotlin-test/1.6.0"
+    }
+  }
+}

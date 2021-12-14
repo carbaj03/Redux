@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../Redux/1.0.0/Redux-1.0.0.module",
+    "group": "me.acarbajo",
+    "module": "Redux",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Redux-jvm-1.0.0.jar",
+          "url": "Redux-jvm-1.0.0.jar",
+          "size": 56250,
+          "sha512": "e4a2509c4b6858d55467a2196c324a90a48579ac42959e2b2aa417956320beae0db4877a63ad23779ac508b622f7c0631c2fab4f861b13ef6047aacbd7f66477",
+          "sha256": "54fd8bc5bc77099626ef85efe5264b05f761023fbb5ead0c6015ce1662b27e9d",
+          "sha1": "937aa17e7ae3dfd6839800dcf0a75fef53b4d02d",
+          "md5": "f1e8e4ed9a089451686d67b6f4cc6c0e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Redux-jvm-1.0.0.jar",
+          "url": "Redux-jvm-1.0.0.jar",
+          "size": 56250,
+          "sha512": "e4a2509c4b6858d55467a2196c324a90a48579ac42959e2b2aa417956320beae0db4877a63ad23779ac508b622f7c0631c2fab4f861b13ef6047aacbd7f66477",
+          "sha256": "54fd8bc5bc77099626ef85efe5264b05f761023fbb5ead0c6015ce1662b27e9d",
+          "sha1": "937aa17e7ae3dfd6839800dcf0a75fef53b4d02d",
+          "md5": "f1e8e4ed9a089451686d67b6f4cc6c0e"
+        }
+      ]
+    }
+  ]
+}

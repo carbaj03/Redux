@@ -1,0 +1,10 @@
+{
+  "name": "Redux",
+  "version": "1.0.0",
+  "main": "kotlin/Redux.js",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

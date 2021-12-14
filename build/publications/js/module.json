@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../Redux/1.0.0/Redux-1.0.0.module",
+    "group": "me.acarbajo",
+    "module": "Redux",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Redux-js-1.0.0.jar",
+          "url": "Redux-js-1.0.0.jar",
+          "size": 17699,
+          "sha512": "30c81582101767ab85eb2ec9652da86c36f92f47175dafc33c9d60ccb85a8e358592e277bf3854ebab3989adc31956dddd39459c65686be1c7c7e4521c4fedb4",
+          "sha256": "b949fd56483d4ae3cd3d26e6d099257b71b72420229dfdfd69c1efd1df7db204",
+          "sha1": "1115ed618f0924c1915d08073de1c9e1fc41dd22",
+          "md5": "764790ed0395201ccd061330600f84ca"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Redux-js-1.0.0.jar",
+          "url": "Redux-js-1.0.0.jar",
+          "size": 17699,
+          "sha512": "30c81582101767ab85eb2ec9652da86c36f92f47175dafc33c9d60ccb85a8e358592e277bf3854ebab3989adc31956dddd39459c65686be1c7c7e4521c4fedb4",
+          "sha256": "b949fd56483d4ae3cd3d26e6d099257b71b72420229dfdfd69c1efd1df7db204",
+          "sha1": "1115ed618f0924c1915d08073de1c9e1fc41dd22",
+          "md5": "764790ed0395201ccd061330600f84ca"
+        }
+      ]
+    }
+  ]
+}

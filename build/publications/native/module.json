@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../Redux/1.0.0/Redux-1.0.0.module",
+    "group": "me.acarbajo",
+    "module": "Redux",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Redux.klib",
+          "url": "Redux-native-1.0.0.klib",
+          "size": 29484,
+          "sha512": "6611e53096b52d343848efb942937a8414f28433445a0f4db46d91042b2e7798574bc01e87583db07e9d58f8d9eb5af60ab343814f413477d2b46abf0af841d2",
+          "sha256": "34a9883207a1821b2eb36725af52a8190377cee5aa8dd270caa90ee61722b036",
+          "sha1": "02a0e243763788f298285f46fbe223b167230fd1",
+          "md5": "e0027b0c85301533a81fc44bb9fbff6a"
+        }
+      ]
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Redux-native-1.0.0-metadata.jar",
+          "url": "Redux-native-1.0.0-metadata.jar",
+          "size": 261,
+          "sha512": "0ce4b109649b899ff80bcb32c91dba560463c9b951d5d67db11a10a3da15ca9e3cc7a567d8721105696e11e6377feddd61ea8f088043d4e6dad22f31013a179f",
+          "sha256": "1f93b4c4b89038f3e2291648f018797edf17665ec2b9ef0bbff882a26651075b",
+          "sha1": "4dddea1469d2fe192f5ed81e927d182b4c80c5e5",
+          "md5": "0f3297a30f73fe95b0fcbb2482e66201"
+        }
+      ]
+    }
+  ]
+}

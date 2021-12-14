@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.acarbajo",
+    "module": "Redux",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Redux-metadata-1.0.0-all.jar",
+          "url": "Redux-1.0.0-all.jar",
+          "size": 7013,
+          "sha512": "086a7b80a60aaade3e9047e6aa4b94c9ca043d7a83fe4b4d721b964223edc9db758193429469e49a998bc1a94590f677a1abde939435f9522f247622c7154808",
+          "sha256": "16eb3078046f4af7c0999be9d304e9c83ec0a6d421c25ab2ea4c1d887678890f",
+          "sha1": "24433db3db477731598494521ae8c0e62c187654",
+          "md5": "27777d5ea6380793bace48ffc03e679b"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Redux-1.0.0.jar",
+          "url": "Redux-1.0.0.jar",
+          "size": 10961,
+          "sha512": "a243d21b33fe4f2f50b4c0da80f313df3647071b1be06749de55fc4d85ef6d81753fae8988d7aa3ee41149cc5572af6782ee973300f4501ce4f53274005845d0",
+          "sha256": "2fdfc3942891c009d5390a0c980d9bbabd8e854d044e0e74f7e3502170bfdbc6",
+          "sha1": "a5207f7a40505384ad988e637f89eb498b31b0d2",
+          "md5": "bfe24d4d586d76f3497f20b757872daa"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../Redux-js/1.0.0/Redux-js-1.0.0.module",
+        "group": "me.acarbajo",
+        "module": "Redux-js",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../Redux-js/1.0.0/Redux-js-1.0.0.module",
+        "group": "me.acarbajo",
+        "module": "Redux-js",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../Redux-jvm/1.0.0/Redux-jvm-1.0.0.module",
+        "group": "me.acarbajo",
+        "module": "Redux-jvm",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../Redux-jvm/1.0.0/Redux-jvm-1.0.0.module",
+        "group": "me.acarbajo",
+        "module": "Redux-jvm",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../Redux-native/1.0.0/Redux-native-1.0.0.module",
+        "group": "me.acarbajo",
+        "module": "Redux-native",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../Redux-native/1.0.0/Redux-native-1.0.0.module",
+        "group": "me.acarbajo",
+        "module": "Redux-native",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}
